@@ -1,7 +1,3 @@
-
-const a = +prompt('Введите число:', '')
-const b = +prompt('Введите его степень:', '')
-
 function degree(a, b) {
     if (b == 1) {
         return a;
@@ -10,4 +6,4 @@ function degree(a, b) {
     }
 }
 
-alert( degree(a, b) );
+console.log( degree(4, 2) );  // 16
