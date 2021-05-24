@@ -6,7 +6,7 @@
 
 let array = ['asd', 'afffd', 'accd', 'kk'];
 function checkArray() {
-let arr = new Array();
+let arrayNew = new Array();
 
 for (let i = 0; i < array.length - 1; i++) {
 
@@ -16,11 +16,11 @@ for (let i = 0; i < array.length - 1; i++) {
     let lastValueNext = array[i+1][array[i+1].length - 1];
 
   if ((firstValueCurrent + lastValueCurrent) == (firstValueNext + lastValueNext)) {
-        arr.push("true");
+        arrayNew.push("true");
     } else {
-        arr.push("false");
+        arrayNew.push("false");
     }
 }
-console.log(arr);
+console.log(arrayNew);
 }
 checkArray();
